@@ -1,3 +1,3 @@
 # README
 
-Finance-tracker app from the Udemy Ruby on Rails Developer course.
+This is the finance-tracker app from the Udemy Complete Ruby on Rails Developer course.
