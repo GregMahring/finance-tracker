@@ -8,11 +8,13 @@
       </div>
       <div class="col-md-2">
         <%= button_tag(type: :submit, class: 'btn btn-lg btn-success') do %>
-          <i class="fa fa-search"></i> Look up a stock
+          <i class="fa fa-search" aria-hidden="true"></i> Look up a stock
         <% end %>
       </div>
     </div>
   <% end %>
+
+  <%= render 'common/spinner' %>
 
   <% if @stock %>
     <div id="stock-lookup-results" class="well results-block">
@@ -21,4 +23,7 @@
       <strong>Price:</strong> <%= @stock.price %>
     </div>
   <% end %>
+
+  <div id="stock-lookup-errors"></div>
+
 </div>
