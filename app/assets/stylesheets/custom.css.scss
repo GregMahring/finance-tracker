@@ -11,14 +11,17 @@
   padding-left: 15px !important;
 }
 
-.user_name.text-right {
-  li {
-    padding-top: 15px;
-  }
+li.col-md-8{
+  height: 40px;
+  margin: 11px 0;
 }
 
 .logout {
   padding-left: 0;
+}
+
+.navbar {
+  height: 51px;
 }
 
 .nav.navbar-nav {
